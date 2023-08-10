@@ -1,0 +1,212 @@
+https://graphicair.glopal.com/en-US/p-14149/benchvent-bv300s-d-airbrush-spray-booth.html?utm_campaign=pr_r&utm_source=https://www.graphicair.co.uk&utm_medium=wi_osf&utm_content=en_GB
+	filters down to 5 microns
+	claims paint spray is 10-20 microns
+	uses a 105W/230V 355m3/hr .6m/s blower
+		355 m3/hr = 208 CFM
+		conversion 1 m3/h = .59 cfm     1 cm = 1.7 m3/h
+		
+http://cs.trains.com/mrr/f/88/t/227701.aspx
+	cheap pleated filters plus a scrub-pad-like prefilter that triples pleat lifespan
+	cheap fiberglass furnace filters as paper clogs too rapidly and are too expensive
+	scrub-pad-like material to catch lacquer that will otherwise seal paper filters
+	one user prefers dedicated spraybooth filters from https://pittsburghsprayequip.com/product-category/spray-booth-filters/?category_id=135
+	
+https://pittsburghsprayequip.com/product/paint-pocket-paint-booth-filters/
+	dedicated paint filters are initial pressure drop of only 0.06"WC but 1.00"WC when fully loaded
+	arrest 100% @ 20 um, 99.8% @ 10um, 85% @ 5um, 4% @ 2.5um
+	'wave' filters are ideal for water-borne, 0.12"/0.50" pressure drop (initial/final)
+
+https://www.boothfilterstore.com/faq.html
+	paint droplets are >7-10 um
+	paint arrestors should have the open weave facing into the painting chamber, with skin backing afterward
+	
+https://www.achrnews.com/articles/102238-a-guide-to-understanding-hvac-filter-selection
+	paint pigments are 0.1-5 um  (but that's pigments, not aerosolized droplets)
+	nebulizer drops are 1-10 um
+
+https://www.micromark.com/15-Inch-x-30-Inch-Large-Spray-Paint-Booth
+	370 CFM from 2x 185 CFM fans
+	3 sqft intake
+https://www.micromark.com/15-Inch-x-20-Inch-Standard-Spray-Paint-Booth
+	1x 185 CFM fan
+	2 sqft intake
+
+http://cs.scaleautomag.com/sca/tips_techniques/f/8/t/123161.aspx
+	never restrict the outlet of your fan, you overwork the motor
+	
+http://modelpaint.tripod.com/booth2.htm
+http://www.modelersite.com/Abr2003/english/Spray-booth-design_Eng.htm
+	sqft of intake * 100 FPM for crossdraft CFM
+	fan must be able to deliver that CFM at the static pressure of your ductwork, see chart
+		eg 1.98 inh20 for 100' of 4" straight aluminum duct at 200 CFM
+		scales linearly, so you can multiply by length of ducts
+		flexible duct /triples/ the straight aluminum duct value, it's very restrictive 
+		smooth duct angle pieces count for 10x-20x their length
+		furnace filters are pretty minimal SP loss
+-->	static pressure is CRITICAL
+		eg 320 CFM (0.0" SP) drops to only 50 CFM at 0.5" SP!!!!
+	bathroom fans are a bad choice, safetywise, as solvents can unvarnish motor windings
+	dayton from granger are much better but not explosion proof
+	
+	plenum space between fans and filters evens out airflow across filters	
+		venting the plenum allows for reduction in booth airflow (if e.g. oversized fan)
+	24" wide x 19" deep x 17" tall
+		top of booth only 10" deep
+		2.5" of depth goes to plenum
+	double-hinged door (so it folds in center) allows closing booth for dustproof drying
+-->	design blueprints http://www.modelersite.com/Abr2003/images/SprayBooth/SprayBooth.jpg
+	
+http://cs.trains.com/mrr/f/11/t/216975.aspx
+	bilge blowers are 'hazardous area' fans that are cheap and safe!
+	their whole job is venting diesel fuel fumes, totally ignition-protected
+	not designed for continuous use, which is totally ok
+	CFM such that you have 100 ft/min (.5m/s) velocity at open side of hood, for a 2 sqft opening that's 200 cfm
+		C > 100*A + 4L
+		L = length of exhaust duct (feet)
+		A = intake aperture (square feet)
+		C = rated CFM of blower
+		
+	filter's job is to keep paint particulates/droplets out of the vent
+	vent's job it to carry the solvents outside
+
+https://vent-works.com/blogs/the-ventilation-blog/15945741-diy-hobby-spray-booth
+	265 CFM, 1.9A, 1600 RPM blower
+--> Excellent design with cut diagrams to make a wooden booth, etc
+
+http://ipms-seattle.org/features/tipsandtricks/AirbrushBooth.pdf
+	booth scale - 1/48th B-17 on turntable (28.5" diameter, though only 24" depth)
+	345hp blower
+	3/4" plywood for major pieces, 1/2" for minor
+	lighting, white interior, and roll-down background fabric for photobooth use
+-->	excellent materials list
+
+
+paint droplet sizes
+-------------------
+	10-20 microns	paint		https://graphicair.glopal.com/en-US/p-14149/benchvent-bv300s-d-airbrush-spray-booth.html?utm_campaign=pr_r&utm_source=https://www.graphicair.co.uk&utm_medium=wi_osf&utm_content=en_GB
+	10-20 microns	paint		https://pittsburghsprayequip.com/product/paint-pocket-paint-booth-filters/
+	 7-10 microns	paint		https://www.boothfilterstore.com/faq.html
+	 1-10 microns	nebulizer	https://www.achrnews.com/articles/102238-a-guide-to-understanding-hvac-filter-selection
+	20-40 microns	paint		https://www.cdc.gov/niosh/nioshtic-2/00210447.html
+	MERV 2			paint		https://www.coloradoci.com/bin-pdf/5270/ParticleSize.pdf	 
+	MERV 7			hairspray	https://www.coloradoci.com/bin-pdf/5270/ParticleSize.pdf
+	5-10 micron		paint		http://www.troyfiltersusa.com/paint-spray-booth.html
+	10+ micron		paint		http://www.g3filters.com/paintbooth_filter_air_supply.php
+	MERV 3			paint 98%	https://www.airfilterusa.com/20x20x2-1-2-sure-fit-paint-arrestor-pad.html
+	10 micron		paint		http://thefiltershopinc.com/filters101/
+	3-10 micron		paint		https://www.kochfilter.com/Products/Paint%20Spray%20Booth
+
+filter intake size
+------------------
+fiberglass paint arrestor pads 20x20 is the standard size, 20x25 also available, and rarely 24x24
+$35	20"x20"x2"		qty 50		https://smile.amazon.com/Chemco-202050DP-Fiberglass-Paint-Arrestor/dp/B07CWZRGR1
+$2  20"x25"x2"		qty q		https://www.grainger.com/product/2JRY8?gclid=Cj0KCQjw7YblBRDFARIsAKkK-dKd_jhNL3VsSw5_JVqull8jJ4BP-WDbHnqdeWlRMlSIlBFv1u7Ew7waAodCEALw_wcB&cm_mmc=PPC:+Google+PLA&ef_id=Cj0KCQjw7YblBRDFARIsAKkK-dKd_jhNL3VsSw5_JVqull8jJ4BP-WDbHnqdeWlRMlSIlBFv1u7Ew7waAodCEALw_wcB:G:s&s_kwcid=AL!2966!3!50916821877!!!g!653996141953!
+
+20" wide is appropriate
+12" tall is appropriate
+
+common furnace filter sizes are 12x12, 12x24, 14x20, 14x24, 14x25, 16x20, 16x25, 18x24, 20x20, 20x24, 20x25
+$26/12	$2.16	14x20	merv 4	https://smile.amazon.com/14x20x1-Percisionaire-Front-10055-011420-Pack12/dp/B000FSSNME/
+$29/12	$2.41	12x20	merv 4 	https://smile.amazon.com/Flanders-Precisionaire-12x20x1-Fiberglass-Furnace/dp/B000LNJTLW/
+$38/12	$3.20	12x20	merv 4	https://smile.amazon.com/Flow-Heavy-Filter-1-Inch-12-Pack/dp/B002718L74/
+$25/6	$4.12	12x20	merv 5	https://smile.amazon.com/Filtrete-12x20x1-MPR-300-Furnace/dp/B07FNW9TMT/
+$36/12	$3.02	12x20	merv 7	https://smile.amazon.com/Nordic-Pure-12x20x1M7-12-Pleated-Furnace/dp/B005ESO5H2/
+
+
+exhaust pipe runs
+	4' up
+	right angle (6' for 4" duct, or 9' for 5")
+	7' north
+	right angle (6' for 4" duct, or 9' for 5")
+	15' west
+equivalent to 38' of straight 4" duct
+equivalent to 44' of straight 5" duct
+
+	siting at corner instead reduces it to
+	4' up
+	right angle
+	10' west
+equivalent to 20' of 4" or to 23' of 5"
+
+
+compact booth
+	make booth 20" wide, 14" tall = 1.94 sq ft
+	
+	200 CFM is 1.98inW per 100' of 4" duct
+	
+	20'/4"	200 CFM @ 20/100*1.98 = .40inW 		good
+	38'/4"	200 CFM @ 38/100*1.98 = .75inW 		marginal
+	
+	can use the $27+$9 attwood bilge blower	(195 cfm @ 0.8inW)
+
+
+oversized booth
+	so make booth 25" wide, 18" tall, use a 16x25 filter and can cut down a 20x25 arrestor
+	16x25 filter is 2.78 sq ft, ie 278 cfm minimum before ductwork
+
+	table is 48x23.5
+
+	300 cfm is 4.19inW per 100' of 4" duct
+	300 cfm is 1.39inW per 100' of 5" duct
+
+	20'/4"	300 CFM @ 20/100*4.19 = .84inW, 	marginal
+	23'/5"	300 CFM @ 23/100*1.39 = 0.31inW 	good
+	38'/4"	300 CFM @ 38/100*4.19 = 1.6inW	 	very bad
+	44'/5"	300 CFM @ 44/100*1.39 = 0.6inW 		ok
+	
+	needs the $167 dayton squirrel cage blower (360 cfm @ .8inW)
+	maybe can use two bilge blower in parallel, $101 after transformers and wye (195*1.67=325 cfm @ .8inW)
+
+
+
+
+blowers
+-------
+bilge blowers (airflow through motor, ignition-proof)
+	+10-15% more cfm by running them at 13.6 VDC, which is what boats actually operate at
+			13.6V
+		W	Amps 	0.00"	0.50"	0.8"	1.0"
+$27		40	2.9		230 	210		195		175		https://smile.amazon.com/attwood-Quiet-Blower-Resistant-4-Inch/dp/B003EX02DA/
+$32		40	3.0		270		crappy chinese fan		https://smile.amazon.com/SEAFLO-Line-Marine-Bilge-Blower/dp/B0166S2PA2/
+$34		60	4.3		190		155		125		110		https://smile.amazon.com/Rule-240-Line-Blower-Connections/dp/B000O8D0IC/
+$34		70	5.0		213		165		--		50		https://smile.amazon.com/SHURFLO-YellowtailTM-Marine-Blower-56125/dp/B004SGWP7I	
+
+
+duct boosters (airflow through motor)
+			115V
+		W	Amps	0.00"	0.50"	0.8"	1.0"
+$116	125	1.1		530		440 	360		310		https://smile.amazon.com/gp/product/B005XNNYMU	
+$106	210	1.8		670		610		530		490		https://smile.amazon.com/gp/product/B002EC1O5M
+
+
+squirrel cage blowers (motor outside of air stream)
+			115V
+		W	Amps	0.00"	0.50"	0.8"	1.0"
+$66		85	0.75	146		110 					https://smile.amazon.com/gp/product/B000BK43IY
+$93		90	0.77	273		135 					https://www.grainger.com/product/DAYTON-PSC-Blower-1TDR3
+$119	225	1.95	265		135						https://www.grainger.com/product/DAYTON-Blower-6FHX9
+$147	160	1.4		485		375		215				https://www.grainger.com/product/product/DAYTON-Rectangular-Permanent-Split-1TDR7
+$167	235	2.05	549		450		360				https://www.grainger.com/product/product/DAYTON-Rectangular-Permanent-Split-1TDT2
+$211	400	3.5		495		387		265				https://www.grainger.com/product/product/DAYTON-Rectangular-Shaded-Pole-OEM-6FHX7
+
+
+transformer for DC blowers
+	$10 	12 V	6A / 72W	https://smile.amazon.com/gp/product/B003TUMDWG/		(1st blower review)
+	$9		14 V	4A / 56W	https://smile.amazon.com/dp/B07FR5PWCH
+	
+speed controller for DC blowers, probably unnecessary
+	$13		20A			https://smile.amazon.com/dp/B00DVGGWC0				(1st blower review) 
+	$9		15A			https://smile.amazon.com/dp/B015F88D32
+
+wye duct
+	$19		5" x 4" x 4" 	http://thesheetmetalkid.com/wye-branch/5-x-4-x-4-duct-wye-branch/
+	$14		6" x 4" x 4"	https://smile.amazon.com/Big-Horn-11603-6-Inch-Y-Adapter/dp/B003NE5A82
+		symmetric is bad when doing two inlets to one outlet, kills venturi effect apparently?
+	$30		6" x 4" x 4"	https://smile.amazon.com/Ideal-Air-736189-Wye-Branch/dp/B0089Y9BX6/
+
+measuring
+--------------
+	measure pressure, speed so you know when filter change is needed
+	$31		0-3" WC				https://smile.amazon.com/Dwyer-25-Manometer-Inclined-Vertical-Measuring/dp/B009PAN3C8/
+	$10		0-4" WC				https://smile.amazon.com/RadonAway-50017-Easy-Read-Manometer/dp/B00HYZ28I6/
+	$34		25 to 400 fpm		https://smile.amazon.com/Dwyer-Vaneometer-Swing-Anemometer-25-400
